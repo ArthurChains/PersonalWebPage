@@ -1,2 +1,4 @@
 # Project exclude paths
 /venv/
+questions.json
+user.db

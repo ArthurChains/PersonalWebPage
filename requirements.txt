@@ -4,3 +4,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==1.0.1
+flask_sqlalchemy
+requests~=2.25.1
+
+SQLAlchemy~=1.4.14

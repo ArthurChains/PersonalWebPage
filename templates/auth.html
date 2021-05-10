@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+{% block content %}
+    <p class="mb-0">Авторизируясь через ВКонтакте, Вы даёте своё согласие на использование Вашего имени и инициалов:</p>
+    <div class="col-4 text-center">
+         <a href="https://oauth.vk.com/authorize?client_id=7811260&display=page&redirect_uri=http://127.0.0.1:5000/vk_callback&scope=friends&response_type=code&v=5.130">
+             <picture>
+                 <img src="/static/assets/img/VK_Full_Logo.svg" class="img-fluid img-thumbnail" alt="">
+             </picture>
+         </a>
+     </div>
+{% endblock %}

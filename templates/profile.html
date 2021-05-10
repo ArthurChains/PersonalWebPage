@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<div class="wrapper">
+<form>
+        <div class="group"><textarea type="textarea" rows="5" id="InputText" name="InputText" required="required"></textarea>
+            <span class="highlight"></span><span class="bar"></span><label>Ваше сообщение:</label></div>
+        <div class="btn-box">
+            <button formaction="{{ url_for('receive_text') }}" formmethod="post" class="btn btn-submit" type="submit">отправить</button>
+            <button formaction="{{ url_for('logout') }}" formmethod="get" class="btn btn-cancel" type="submit">Выйти</button>
+
+            <h5>По любым вопросам обращайтесь arthur.salio@gmail.com <span class="emoji">&#x1F609;</span></h5>
+        </div>
+</form>
+</div>
+
+{% endblock %}
